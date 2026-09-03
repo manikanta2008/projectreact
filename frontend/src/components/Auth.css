@@ -1,0 +1,145 @@
+/* Import a modern, clean geometric font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #2563eb; /* Rich sleek blue */
+  --primary-hover: #1d4ed8; /* Deeper blue for hover states */
+  --bg-gradient-start: #0f172a; /* Modern deep dark slate background */
+  --bg-gradient-end: #1e293b;
+  --surface-color: #ffffff; /* Pure white crisp form surface */
+  --text-main: #0f172a; /* Almost black for clean typography readability */
+  --text-muted: #64748b; /* Soft gray for subtexts/placeholders */
+  --border-color: #e2e8f0; /* Subtle slate borders */
+  --border-focus: #3b82f6;
+}
+
+/* Full page wrapper */
+.auth-container {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    var(--bg-gradient-start),
+    var(--bg-gradient-end)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Heading - Cleaned up hierarchy and weight */
+.auth-container h2 {
+  color: #ffffff;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.025em; /* Slightly tighter letter spacing for premium look */
+  text-align: center;
+}
+
+/* Form box container wrapper */
+.auth-container form {
+  background: var(--surface-color);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.3),
+    0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 420px; /* Uses modern responsive boundaries */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Even structural spacing layout automatically handles internal margins */
+}
+
+/* Form Groups / Wrapper labels (Add these wrapping divs around your inputs if you want clean stacking) */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+/* Input fields text inputs */
+.auth-container input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text-main);
+  background-color: #f8fafc; /* Slightly muted background for non-focused fields */
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.auth-container input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Input dynamic focus micro-interactions */
+.auth-container input:focus {
+  background-color: #ffffff;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15); /* Sleek, crisp modern focus halo ring ring */
+}
+
+/* Primary Action Button */
+.auth-container button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: var(--primary-color);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+  margin-top: 8px;
+}
+
+/* Button Hover states handles explicitly without layout-breaking scaling shifts */
+.auth-container button:hover {
+  background: var(--primary-hover);
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+  transform: translateY(
+    -1px
+  ); /* Sophisticated micro-lift instead of a huge scale balloon inflation */
+}
+
+.auth-container button:active {
+  transform: translateY(
+    1px
+  ); /* Natural physical click depress tactile sense response */
+}
+
+/* Responsive Adaptive Viewports */
+@media (max-width: 480px) {
+  .auth-container h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .auth-container form {
+    padding: 28px 20px;
+    border-radius: 12px;
+  }
+}

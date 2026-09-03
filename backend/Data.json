@@ -1,0 +1,770 @@
+{
+  "categories": [
+    {
+      "id": "arrays",
+      "name": "Arrays",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Two Sum",
+          "difficulty": "Easy",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/two-sum/"
+        },
+        {
+          "id": 2,
+          "title": "Best Time to Buy and Sell Stock",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+        },
+        {
+          "id": 3,
+          "title": "Maximum Subarray (Kadane's Algorithm)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Microsoft", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/maximum-subarray/"
+        },
+        {
+          "id": 4,
+          "title": "Merge Intervals",
+          "difficulty": "Medium",
+          "companies": ["Google", "Facebook", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/merge-intervals/"
+        },
+        {
+          "id": 5,
+          "title": "Find the Duplicate Number",
+          "difficulty": "Medium",
+          "companies": ["Microsoft", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number/"
+        },
+        {
+          "id": 6,
+          "title": "Product of Array Except Self",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/"
+        },
+        {
+          "id": 7,
+          "title": "3Sum (Three Number Sum)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Adobe", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/3sum/"
+        },
+        {
+          "id": 8,
+          "title": "Rotate Array by K Steps",
+          "difficulty": "Easy",
+          "companies": ["TCS", "Infosys", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/rotate-array/"
+        },
+        {
+          "id": 9,
+          "title": "Trapping Rain Water",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Goldman Sachs"],
+          "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/"
+        },
+        {
+          "id": 10,
+          "title": "Container With Most Water",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Bloomberg"],
+          "leetcode_url": "https://leetcode.com/problems/container-with-most-water/"
+        },
+        {
+          "id": 11,
+          "title": "Find Peak Element",
+          "difficulty": "Medium",
+          "companies": ["Google", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/find-peak-element/"
+        },
+        {
+          "id": 12,
+          "title": "Subarray Sum Equals K",
+          "difficulty": "Medium",
+          "companies": ["Facebook", "Amazon", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+        }
+      ]
+    },
+    {
+      "id": "strings",
+      "name": "Strings",
+      "questions": [
+        {
+          "id": 13,
+          "title": "Longest Substring Without Repeating Characters",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+        },
+        {
+          "id": 14,
+          "title": "Valid Anagram",
+          "difficulty": "Easy",
+          "companies": ["Google", "Facebook", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/valid-anagram/"
+        },
+        {
+          "id": 15,
+          "title": "Longest Palindromic Substring",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Adobe", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/longest-palindromic-substring/"
+        },
+        {
+          "id": 16,
+          "title": "Group Anagrams",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/group-anagrams/"
+        },
+        {
+          "id": 17,
+          "title": "Minimum Window Substring",
+          "difficulty": "Hard",
+          "companies": ["Google", "Facebook", "Goldman Sachs"],
+          "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/"
+        },
+        {
+          "id": 18,
+          "title": "Valid Parentheses",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Microsoft", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/valid-parentheses/"
+        },
+        {
+          "id": 19,
+          "title": "Count and Say",
+          "difficulty": "Medium",
+          "companies": ["Google", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/count-and-say/"
+        },
+        {
+          "id": 20,
+          "title": "String Compression (Run-Length Encoding)",
+          "difficulty": "Easy",
+          "companies": ["TCS", "Infosys", "HCL"],
+          "leetcode_url": "https://leetcode.com/problems/string-compression/"
+        },
+        {
+          "id": 21,
+          "title": "Reverse Words in a String",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Microsoft", "Capgemini"],
+          "leetcode_url": "https://leetcode.com/problems/reverse-words-in-a-string/"
+        },
+        {
+          "id": 22,
+          "title": "Rabin-Karp / KMP Pattern Matching",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Goldman Sachs"],
+          "leetcode_url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+        }
+      ]
+    },
+    {
+      "id": "linked-lists",
+      "name": "Linked Lists",
+      "questions": [
+        {
+          "id": 23,
+          "title": "Reverse a Linked List",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Microsoft", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/"
+        },
+        {
+          "id": 24,
+          "title": "Detect Cycle in a Linked List (Floyd's)",
+          "difficulty": "Easy",
+          "companies": ["Google", "Amazon", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/"
+        },
+        {
+          "id": 25,
+          "title": "Merge Two Sorted Linked Lists",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Facebook", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+        },
+        {
+          "id": 26,
+          "title": "Find Middle of Linked List",
+          "difficulty": "Easy",
+          "companies": ["TCS", "HCL", "Cognizant"],
+          "leetcode_url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+        },
+        {
+          "id": 27,
+          "title": "Remove Nth Node From End of List",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+        },
+        {
+          "id": 28,
+          "title": "LRU Cache Implementation",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/lru-cache/"
+        },
+        {
+          "id": 29,
+          "title": "Flatten a Multilevel Doubly Linked List",
+          "difficulty": "Medium",
+          "companies": ["Microsoft", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/"
+        },
+        {
+          "id": 30,
+          "title": "Intersection Point of Two Linked Lists",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Flipkart", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+        }
+      ]
+    },
+    {
+      "id": "trees-graphs",
+      "name": "Trees & Graphs",
+      "questions": [
+        {
+          "id": 31,
+          "title": "Binary Tree Level Order Traversal (BFS)",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Google"],
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+        },
+        {
+          "id": 32,
+          "title": "Lowest Common Ancestor of a BST",
+          "difficulty": "Medium",
+          "companies": ["Google", "Facebook", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+        },
+        {
+          "id": 33,
+          "title": "Diameter of Binary Tree",
+          "difficulty": "Easy",
+          "companies": ["Google", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+        },
+        {
+          "id": 34,
+          "title": "Check if Binary Tree is Balanced",
+          "difficulty": "Easy",
+          "companies": ["Microsoft", "TCS", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree/"
+        },
+        {
+          "id": 35,
+          "title": "Number of Islands (BFS/DFS)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/number-of-islands/"
+        },
+        {
+          "id": 36,
+          "title": "Word Ladder (Shortest Transformation)",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/word-ladder/"
+        },
+        {
+          "id": 37,
+          "title": "Detect Cycle in Directed Graph",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Adobe", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/course-schedule/"
+        },
+        {
+          "id": 38,
+          "title": "Topological Sort (Kahn's / DFS)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Microsoft", "Uber"],
+          "leetcode_url": "https://leetcode.com/problems/course-schedule-ii/"
+        },
+        {
+          "id": 39,
+          "title": "Dijkstra's Shortest Path Algorithm",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Goldman Sachs"],
+          "leetcode_url": "https://leetcode.com/problems/network-delay-time/"
+        },
+        {
+          "id": 40,
+          "title": "Serialize and Deserialize Binary Tree",
+          "difficulty": "Hard",
+          "companies": ["Google", "Facebook", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+        },
+        {
+          "id": 41,
+          "title": "Right View of Binary Tree",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Flipkart", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+        },
+        {
+          "id": 42,
+          "title": "Alien Dictionary (Graph + Topological Sort)",
+          "difficulty": "Hard",
+          "companies": ["Google", "Uber", "Airbnb"],
+          "leetcode_url": "https://leetcode.com/problems/alien-dictionary/"
+        },
+        {
+          "id": 43,
+          "title": "Clone a Graph",
+          "difficulty": "Medium",
+          "companies": ["Facebook", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/clone-graph/"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-programming",
+      "name": "Dynamic Programming",
+      "questions": [
+        {
+          "id": 44,
+          "title": "Fibonacci (Memoization / Tabulation)",
+          "difficulty": "Easy",
+          "companies": ["TCS", "Infosys", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/fibonacci-number/"
+        },
+        {
+          "id": 45,
+          "title": "0/1 Knapsack Problem",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Accenture"],
+          "leetcode_url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+        },
+        {
+          "id": 46,
+          "title": "Longest Common Subsequence (LCS)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/"
+        },
+        {
+          "id": 47,
+          "title": "Longest Increasing Subsequence (LIS)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Microsoft", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+        },
+        {
+          "id": 48,
+          "title": "Coin Change (Minimum Coins)",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Google", "Goldman Sachs"],
+          "leetcode_url": "https://leetcode.com/problems/coin-change/"
+        },
+        {
+          "id": 49,
+          "title": "Edit Distance (Levenshtein)",
+          "difficulty": "Hard",
+          "companies": ["Google", "Microsoft", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/edit-distance/"
+        },
+        {
+          "id": 50,
+          "title": "Egg Drop Problem",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Uber"],
+          "leetcode_url": "https://leetcode.com/problems/super-egg-drop/"
+        },
+        {
+          "id": 51,
+          "title": "Matrix Chain Multiplication",
+          "difficulty": "Hard",
+          "companies": ["Amazon", "TCS", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/burst-balloons/"
+        },
+        {
+          "id": 52,
+          "title": "Palindrome Partitioning (Min Cuts)",
+          "difficulty": "Hard",
+          "companies": ["Google", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning-ii/"
+        },
+        {
+          "id": 53,
+          "title": "Wildcard Pattern Matching",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/wildcard-matching/"
+        },
+        {
+          "id": 54,
+          "title": "Maximum Sum Rectangle in a 2D Matrix",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/"
+        },
+        {
+          "id": 55,
+          "title": "Unique Paths in a Grid",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Capgemini"],
+          "leetcode_url": "https://leetcode.com/problems/unique-paths/"
+        },
+        {
+          "id": 56,
+          "title": "Word Break Problem",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/word-break/"
+        }
+      ]
+    },
+    {
+      "id": "sorting-searching",
+      "name": "Sorting & Searching",
+      "questions": [
+        {
+          "id": 57,
+          "title": "Quick Sort",
+          "difficulty": "Medium",
+          "companies": ["TCS", "Infosys", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/sort-an-array/"
+        },
+        {
+          "id": 58,
+          "title": "Merge Sort",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Google"],
+          "leetcode_url": "https://leetcode.com/problems/sort-an-array/"
+        },
+        {
+          "id": 59,
+          "title": "Binary Search on Sorted Array",
+          "difficulty": "Easy",
+          "companies": ["All MNCs"],
+          "leetcode_url": "https://leetcode.com/problems/binary-search/"
+        },
+        {
+          "id": 60,
+          "title": "Search in Rotated Sorted Array",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+        },
+        {
+          "id": 61,
+          "title": "Kth Largest Element in an Array",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Facebook", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+        },
+        {
+          "id": 62,
+          "title": "Find Median from Data Stream",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Goldman Sachs"],
+          "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/"
+        },
+        {
+          "id": 63,
+          "title": "Count Inversions in an Array",
+          "difficulty": "Medium",
+          "companies": ["Google", "Microsoft", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/reverse-pairs/"
+        },
+        {
+          "id": 64,
+          "title": "Top K Frequent Elements",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Facebook", "Uber"],
+          "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        }
+      ]
+    },
+    {
+      "id": "stacks-queues",
+      "name": "Stacks & Queues",
+      "questions": [
+        {
+          "id": 65,
+          "title": "Next Greater Element",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Flipkart", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/next-greater-element-i/"
+        },
+        {
+          "id": 66,
+          "title": "Largest Rectangle in Histogram",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+        },
+        {
+          "id": 67,
+          "title": "Min Stack (Get Minimum in O(1))",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Microsoft", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/min-stack/"
+        },
+        {
+          "id": 68,
+          "title": "Evaluate Reverse Polish Notation",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Google"],
+          "leetcode_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+        },
+        {
+          "id": 69,
+          "title": "Sliding Window Maximum",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/"
+        },
+        {
+          "id": 70,
+          "title": "Implement Queue using Stacks",
+          "difficulty": "Easy",
+          "companies": ["TCS", "Wipro", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+        },
+        {
+          "id": 71,
+          "title": "Balanced Brackets Checker",
+          "difficulty": "Easy",
+          "companies": ["All MNCs"],
+          "leetcode_url": "https://leetcode.com/problems/valid-parentheses/"
+        },
+        {
+          "id": 72,
+          "title": "Celebrity Problem (Stack-based)",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/find-the-celebrity/"
+        }
+      ]
+    },
+    {
+      "id": "hashing-heaps",
+      "name": "Hashing & Heaps",
+      "questions": [
+        {
+          "id": 73,
+          "title": "Find All Pairs with Given Sum",
+          "difficulty": "Easy",
+          "companies": ["TCS", "Infosys", "Wipro"],
+          "leetcode_url": "https://leetcode.com/problems/two-sum/"
+        },
+        {
+          "id": 74,
+          "title": "Longest Consecutive Sequence",
+          "difficulty": "Medium",
+          "companies": ["Google", "Facebook", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+        },
+        {
+          "id": 75,
+          "title": "Merge K Sorted Lists",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+        },
+        {
+          "id": 76,
+          "title": "Implement Trie (Prefix Tree)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+        },
+        {
+          "id": 77,
+          "title": "First Non-Repeating Character in Stream",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Flipkart", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+        },
+        {
+          "id": 78,
+          "title": "Maximum of All Subarrays of Size K (Heap)",
+          "difficulty": "Hard",
+          "companies": ["Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/"
+        }
+      ]
+    },
+    {
+      "id": "recursion-backtracking",
+      "name": "Recursion & Backtracking",
+      "questions": [
+        {
+          "id": 79,
+          "title": "N-Queens Problem",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/n-queens/"
+        },
+        {
+          "id": 80,
+          "title": "Sudoku Solver",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Adobe"],
+          "leetcode_url": "https://leetcode.com/problems/sudoku-solver/"
+        },
+        {
+          "id": 81,
+          "title": "Generate All Permutations of a String",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Wipro", "TCS"],
+          "leetcode_url": "https://leetcode.com/problems/permutations/"
+        },
+        {
+          "id": 82,
+          "title": "Generate All Subsets / Power Set",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Microsoft", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/subsets/"
+        },
+        {
+          "id": 83,
+          "title": "Word Search in 2D Grid",
+          "difficulty": "Medium",
+          "companies": ["Amazon", "Facebook", "Google"],
+          "leetcode_url": "https://leetcode.com/problems/word-search/"
+        },
+        {
+          "id": 84,
+          "title": "Rat in a Maze",
+          "difficulty": "Medium",
+          "companies": ["TCS", "Infosys", "Accenture"],
+          "leetcode_url": "https://leetcode.com/problems/unique-paths-iii/"
+        },
+        {
+          "id": 85,
+          "title": "Phone Number Letter Combinations",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+        },
+        {
+          "id": 86,
+          "title": "Combination Sum (All Unique Combos)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/combination-sum/"
+        }
+      ]
+    },
+    {
+      "id": "math-bit-manipulation",
+      "name": "Math & Bit Manipulation",
+      "questions": [
+        {
+          "id": 87,
+          "title": "Count Set Bits (Brian Kernighan's)",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "TCS", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/number-of-1-bits/"
+        },
+        {
+          "id": 88,
+          "title": "Power of a Number (Fast Exponentiation)",
+          "difficulty": "Easy",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/powx-n/"
+        },
+        {
+          "id": 89,
+          "title": "Single Number (XOR Trick)",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "Facebook", "Flipkart"],
+          "leetcode_url": "https://leetcode.com/problems/single-number/"
+        },
+        {
+          "id": 90,
+          "title": "Check if Number is Power of Two",
+          "difficulty": "Easy",
+          "companies": ["TCS", "Wipro", "Cognizant"],
+          "leetcode_url": "https://leetcode.com/problems/power-of-two/"
+        },
+        {
+          "id": 91,
+          "title": "Greatest Common Divisor (Euclidean Algorithm)",
+          "difficulty": "Easy",
+          "companies": ["All MNCs"],
+          "leetcode_url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/"
+        },
+        {
+          "id": 92,
+          "title": "Sieve of Eratosthenes (All Primes upto N)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/count-primes/"
+        },
+        {
+          "id": 93,
+          "title": "Find Missing Number in Array (XOR / Math)",
+          "difficulty": "Easy",
+          "companies": ["Amazon", "TCS", "Infosys"],
+          "leetcode_url": "https://leetcode.com/problems/missing-number/"
+        },
+        {
+          "id": 94,
+          "title": "Reverse Bits of an Integer",
+          "difficulty": "Easy",
+          "companies": ["Google", "Qualcomm", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/reverse-bits/"
+        }
+      ]
+    },
+    {
+      "id": "classic-mnc-favorites",
+      "name": "Classic MNC Favorites",
+      "questions": [
+        {
+          "id": 95,
+          "title": "LRU Cache (LinkedHashMap / Doubly LL + HashMap)",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/lru-cache/"
+        },
+        {
+          "id": 96,
+          "title": "Design Hit Counter",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Dropbox"],
+          "leetcode_url": "https://leetcode.com/problems/design-hit-counter/"
+        },
+        {
+          "id": 97,
+          "title": "Flatten Binary Tree to Linked List",
+          "difficulty": "Medium",
+          "companies": ["Microsoft", "Facebook", "Amazon"],
+          "leetcode_url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+        },
+        {
+          "id": 98,
+          "title": "Maximum Path Sum in Binary Tree",
+          "difficulty": "Hard",
+          "companies": ["Google", "Amazon", "Facebook"],
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+        },
+        {
+          "id": 99,
+          "title": "Course Schedule (Cycle Detection in DAG)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Uber"],
+          "leetcode_url": "https://leetcode.com/problems/course-schedule/"
+        },
+        {
+          "id": 100,
+          "title": "Jump Game (Greedy / DP)",
+          "difficulty": "Medium",
+          "companies": ["Google", "Amazon", "Microsoft"],
+          "leetcode_url": "https://leetcode.com/problems/jump-game/"
+        }
+      ]
+    }
+  ]
+}

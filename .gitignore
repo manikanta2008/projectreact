@@ -1,0 +1,27 @@
+# Environment variables
+.env
+**/.env
+
+# Python virtual environments
+myenv/
+**/myenv/
+venv/
+**/venv/
+.venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Node
+node_modules/
+**/node_modules/
+
+# React build
+dist/
+build/
+
+# VS Code
+.vscode/

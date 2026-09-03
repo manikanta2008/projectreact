@@ -1,0 +1,183 @@
+/* ── Page Layout & Typography ────────────────────────── */
+.coding-practice {
+  padding: 40px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 32px;
+  letter-spacing: -0.02em;
+}
+
+/* ── Progress Section ─────────────────────────────────── */
+.progress-section {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto 48px auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.progress-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 12px 0;
+}
+
+.progress-bar {
+  background: #e2e8f0;
+  border-radius: 9999px;
+  height: 12px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  background: #10b981; /* Emerald Green */
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-section p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  margin: 0;
+}
+
+/* ── Category Layout ──────────────────────────────────── */
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+  border-left: 4px solid #3b82f6; /* Clean blue accent indicator tag */
+  padding-left: 12px;
+}
+
+/* ── Questions Layout Grid ────────────────────────────── */
+.questions-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+/* ── Question Card Component ──────────────────────────── */
+.question-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.question-card:hover {
+  border-color: #cbd5e1;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+/* ── Card Dynamic State: Completed ────────────────────── */
+.question-card.completed-card {
+  background-color: #f0fdf4; /* Soft, readable light green tint */
+  border-color: #bbf7d0;
+}
+
+.question-card.completed-card:hover {
+  border-color: #86efac;
+}
+
+.question-card.completed-card .question-title {
+  text-decoration: line-through;
+  color: #64748b; /* Dim down text priority when checked */
+}
+
+/* ── Card Interior Elements ───────────────────────────── */
+.question-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Checkbox specific sizing & tint */
+.question-header input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #10b981; /* Matches emerald progress color theme */
+}
+
+.question-id {
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 500;
+  margin-right: auto; /* Pushes difficulty badge nicely to the far right */
+}
+
+.question-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.5;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.question-title:hover {
+  color: #3b82f6; /* Interactive blue focus transition on hover */
+}
+
+/* ── Difficulty Badges ────────────────────────────────── */
+.difficulty {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.easy {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.medium {
+  background: #fef9c3;
+  color: #a16207;
+}
+
+.hard {
+  background: #fee2e2;
+  color: #b91c1c;
+}

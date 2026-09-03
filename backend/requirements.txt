@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+python-dotenv
+pdfplumber
+python-docx
+groq
+psycopg2-binary
+email-validator

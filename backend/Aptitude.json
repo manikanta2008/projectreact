@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Problems on Trains",
+    "category": "Time, Speed and Distance"
+  },
+  {
+    "id": 2,
+    "title": "Time and Distance",
+    "category": "Time, Speed and Distance"
+  },
+  {
+    "id": 3,
+    "title": "Height and Distance",
+    "category": "Mensuration"
+  },
+  {
+    "id": 4,
+    "title": "Time and Work",
+    "category": "Work and Wages"
+  },
+  {
+    "id": 5,
+    "title": "Simple Interest",
+    "category": "Interest"
+  },
+  {
+    "id": 6,
+    "title": "Compound Interest",
+    "category": "Interest"
+  },
+  {
+    "id": 7,
+    "title": "Profit and Loss",
+    "category": "Commercial Mathematics"
+  },
+  {
+    "id": 8,
+    "title": "Partnership",
+    "category": "Commercial Mathematics"
+  },
+  {
+    "id": 9,
+    "title": "Percentage",
+    "category": "Arithmetic"
+  },
+  {
+    "id": 10,
+    "title": "Problems on Ages",
+    "category": "Arithmetic"
+  },
+  {
+    "id": 11,
+    "title": "Calendar",
+    "category": "Logical Reasoning"
+  },
+  {
+    "id": 12,
+    "title": "Clock",
+    "category": "Logical Reasoning"
+  },
+  {
+    "id": 13,
+    "title": "Average",
+    "category": "Arithmetic"
+  },
+  {
+    "id": 14,
+    "title": "Area",
+    "category": "Mensuration"
+  },
+  {
+    "id": 15,
+    "title": "Volume and Surface Area",
+    "category": "Mensuration"
+  },
+  {
+    "id": 16,
+    "title": "Permutation and Combination",
+    "category": "Advanced Mathematics"
+  },
+  {
+    "id": 17,
+    "title": "Numbers",
+    "category": "Number System"
+  },
+  {
+    "id": 18,
+    "title": "Problems on Numbers",
+    "category": "Number System"
+  },
+  {
+    "id": 19,
+    "title": "Problems on H.C.F and L.C.M",
+    "category": "Number System"
+  },
+  {
+    "id": 20,
+    "title": "Decimal Fraction",
+    "category": "Arithmetic"
+  },
+  {
+    "id": 21,
+    "title": "Simplification",
+    "category": "Arithmetic"
+  },
+  {
+    "id": 22,
+    "title": "Square Root and Cube Root",
+    "category": "Arithmetic"
+  },
+  {
+    "id": 23,
+    "title": "Surds and Indices",
+    "category": "Advanced Mathematics"
+  },
+  {
+    "id": 24,
+    "title": "Ratio and Proportion",
+    "category": "Arithmetic"
+  }
+]
