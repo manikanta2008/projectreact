@@ -1,13 +1,13 @@
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from passlib.context import CryptContext
 from jose import jwt
 from dotenv import load_dotenv
 
 from datetime import datetime, timezone, timedelta
 import json
 import os
+import bcrypt
 
 # Load environment variables
 load_dotenv()
@@ -77,10 +77,38 @@ Base.metadata.create_all(bind=engine)
 # PASSWORD HASHING
 # ==========================================
 
-pwd_context = CryptContext(
-    schemes=["bcrypt"],
-    deprecated="auto"
-)
+def hash_password(password: str) -> str:
+
+    password_bytes = password.encode("utf-8")
+
+    if len(password_bytes) > 72:
+        raise HTTPException(
+            status_code=400,
+            detail="Password must not exceed 72 bytes"
+        )
+
+    hashed = bcrypt.hashpw(
+        password_bytes,
+        bcrypt.gensalt()
+    )
+
+    return hashed.decode("utf-8")
+
+
+def verify_password(password: str, hashed_password: str) -> bool:
+
+    password_bytes = password.encode("utf-8")
+
+    if len(password_bytes) > 72:
+        return False
+
+    try:
+        return bcrypt.checkpw(
+            password_bytes,
+            hashed_password.encode("utf-8")
+        )
+    except (ValueError, TypeError):
+        return False
 
 
 # ==========================================
@@ -164,12 +192,20 @@ def register(
         email=user.email,
         mobile=user.mobile,
         dob=user.dob,
-        password=pwd_context.hash(user.password)
+        password=hash_password(user.password)
     )
 
-    db.add(new_user)
-    db.commit()
-    db.refresh(new_user)
+    try:
+        db.add(new_user)
+        db.commit()
+        db.refresh(new_user)
+
+    except Exception:
+        db.rollback()
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to register user. Please try again."
+        )
 
     return {
         "message": "User registered successfully"
@@ -191,7 +227,7 @@ def login(
         (User.mobile == request.emailOrMobile)
     ).first()
 
-    if not user or not pwd_context.verify(
+    if not user or not verify_password(
         request.password,
         user.password
     ):
@@ -321,9 +357,6 @@ def get_coding_questions():
 
 @app.get("/aptitude-topics")
 def get_aptitude_topics():
-
-    # Linux is case-sensitive.
-    # GitHub filename is Aptitude.json
 
     file_path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
